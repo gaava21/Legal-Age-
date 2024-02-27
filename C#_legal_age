@@ -1,0 +1,22 @@
+Imports System
+Imports System.Numerics
+
+Module Program
+
+Sub EjercicioEdad()
+    Dim edad As Integer
+
+    Console.WriteLine("Ingrese su edad: ")
+    edad = Convert.ToInt32(Console.ReadLine())
+
+    If edad < 18 Then
+        Console.WriteLine("Usted es menor de edad")
+    ElseIf edad >= 18 Then
+        Console.WriteLine("Usted es mayor de edad")
+    End If
+End Sub
+
+    Sub Main(args As String())
+        EjercicioEdad()
+    End Sub
+End Module
